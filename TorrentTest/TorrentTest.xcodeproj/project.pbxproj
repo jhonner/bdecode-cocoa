@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C08E4B81B0B9A5E00632A17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C08E4B71B0B9A5E00632A17 /* AppDelegate.m */; };
+		3C08E4BA1B0B9A5E00632A17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C08E4B91B0B9A5E00632A17 /* main.m */; };
+		3C08E4BD1B0B9A5E00632A17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C08E4BC1B0B9A5E00632A17 /* ViewController.m */; };
+		3C08E4BF1B0B9A5E00632A17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C08E4BE1B0B9A5E00632A17 /* Images.xcassets */; };
+		3C08E4C21B0B9A5E00632A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C08E4C01B0B9A5E00632A17 /* Main.storyboard */; };
+		3C08E4CE1B0B9A5E00632A17 /* TorrentTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C08E4CD1B0B9A5E00632A17 /* TorrentTestTests.m */; };
+		3C08E4DB1B0BC3B500632A17 /* BDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C08E4DA1B0BC3B500632A17 /* BDecoder.m */; };
+		3C5974A71B0BE85F00E1FDB6 /* TorrentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5974A61B0BE85F00E1FDB6 /* TorrentInfo.m */; };
+		3C5974AA1B0BE91F00E1FDB6 /* TorrentFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5974A91B0BE91F00E1FDB6 /* TorrentFile.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C08E4C81B0B9A5E00632A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C08E4A91B0B9A5E00632A17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C08E4B01B0B9A5E00632A17;
+			remoteInfo = TorrentTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C08E4B11B0B9A5E00632A17 /* TorrentTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TorrentTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C08E4B51B0B9A5E00632A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C08E4B61B0B9A5E00632A17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C08E4B71B0B9A5E00632A17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C08E4B91B0B9A5E00632A17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C08E4BB1B0B9A5E00632A17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C08E4BC1B0B9A5E00632A17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C08E4BE1B0B9A5E00632A17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C08E4C11B0B9A5E00632A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C08E4C71B0B9A5E00632A17 /* TorrentTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorrentTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C08E4CC1B0B9A5E00632A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C08E4CD1B0B9A5E00632A17 /* TorrentTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TorrentTestTests.m; sourceTree = "<group>"; };
+		3C08E4D91B0BC3B500632A17 /* BDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDecoder.h; sourceTree = "<group>"; };
+		3C08E4DA1B0BC3B500632A17 /* BDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDecoder.m; sourceTree = "<group>"; };
+		3C5974A51B0BE85F00E1FDB6 /* TorrentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentInfo.h; sourceTree = "<group>"; };
+		3C5974A61B0BE85F00E1FDB6 /* TorrentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentInfo.m; sourceTree = "<group>"; };
+		3C5974A81B0BE91F00E1FDB6 /* TorrentFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentFile.h; sourceTree = "<group>"; };
+		3C5974A91B0BE91F00E1FDB6 /* TorrentFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentFile.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C08E4AE1B0B9A5E00632A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C08E4C41B0B9A5E00632A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C08E4A81B0B9A5E00632A17 = {
+			isa = PBXGroup;
+			children = (
+				3C08E4B31B0B9A5E00632A17 /* TorrentTest */,
+				3C08E4CA1B0B9A5E00632A17 /* TorrentTestTests */,
+				3C08E4B21B0B9A5E00632A17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C08E4B21B0B9A5E00632A17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C08E4B11B0B9A5E00632A17 /* TorrentTest.app */,
+				3C08E4C71B0B9A5E00632A17 /* TorrentTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C08E4B31B0B9A5E00632A17 /* TorrentTest */ = {
+			isa = PBXGroup;
+			children = (
+				3C5974A51B0BE85F00E1FDB6 /* TorrentInfo.h */,
+				3C5974A61B0BE85F00E1FDB6 /* TorrentInfo.m */,
+				3C5974A81B0BE91F00E1FDB6 /* TorrentFile.h */,
+				3C5974A91B0BE91F00E1FDB6 /* TorrentFile.m */,
+				3C08E4D91B0BC3B500632A17 /* BDecoder.h */,
+				3C08E4DA1B0BC3B500632A17 /* BDecoder.m */,
+				3C08E4B61B0B9A5E00632A17 /* AppDelegate.h */,
+				3C08E4B71B0B9A5E00632A17 /* AppDelegate.m */,
+				3C08E4BB1B0B9A5E00632A17 /* ViewController.h */,
+				3C08E4BC1B0B9A5E00632A17 /* ViewController.m */,
+				3C08E4BE1B0B9A5E00632A17 /* Images.xcassets */,
+				3C08E4C01B0B9A5E00632A17 /* Main.storyboard */,
+				3C08E4B41B0B9A5E00632A17 /* Supporting Files */,
+			);
+			path = TorrentTest;
+			sourceTree = "<group>";
+		};
+		3C08E4B41B0B9A5E00632A17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C08E4B51B0B9A5E00632A17 /* Info.plist */,
+				3C08E4B91B0B9A5E00632A17 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C08E4CA1B0B9A5E00632A17 /* TorrentTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C08E4CD1B0B9A5E00632A17 /* TorrentTestTests.m */,
+				3C08E4CB1B0B9A5E00632A17 /* Supporting Files */,
+			);
+			path = TorrentTestTests;
+			sourceTree = "<group>";
+		};
+		3C08E4CB1B0B9A5E00632A17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C08E4CC1B0B9A5E00632A17 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C08E4B01B0B9A5E00632A17 /* TorrentTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C08E4D11B0B9A5E00632A17 /* Build configuration list for PBXNativeTarget "TorrentTest" */;
+			buildPhases = (
+				3C08E4AD1B0B9A5E00632A17 /* Sources */,
+				3C08E4AE1B0B9A5E00632A17 /* Frameworks */,
+				3C08E4AF1B0B9A5E00632A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TorrentTest;
+			productName = TorrentTest;
+			productReference = 3C08E4B11B0B9A5E00632A17 /* TorrentTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C08E4C61B0B9A5E00632A17 /* TorrentTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C08E4D41B0B9A5E00632A17 /* Build configuration list for PBXNativeTarget "TorrentTestTests" */;
+			buildPhases = (
+				3C08E4C31B0B9A5E00632A17 /* Sources */,
+				3C08E4C41B0B9A5E00632A17 /* Frameworks */,
+				3C08E4C51B0B9A5E00632A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C08E4C91B0B9A5E00632A17 /* PBXTargetDependency */,
+			);
+			name = TorrentTestTests;
+			productName = TorrentTestTests;
+			productReference = 3C08E4C71B0B9A5E00632A17 /* TorrentTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C08E4A91B0B9A5E00632A17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Yann Bouschet";
+				TargetAttributes = {
+					3C08E4B01B0B9A5E00632A17 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3C08E4C61B0B9A5E00632A17 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 3C08E4B01B0B9A5E00632A17;
+					};
+				};
+			};
+			buildConfigurationList = 3C08E4AC1B0B9A5E00632A17 /* Build configuration list for PBXProject "TorrentTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C08E4A81B0B9A5E00632A17;
+			productRefGroup = 3C08E4B21B0B9A5E00632A17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C08E4B01B0B9A5E00632A17 /* TorrentTest */,
+				3C08E4C61B0B9A5E00632A17 /* TorrentTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C08E4AF1B0B9A5E00632A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C08E4BF1B0B9A5E00632A17 /* Images.xcassets in Resources */,
+				3C08E4C21B0B9A5E00632A17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C08E4C51B0B9A5E00632A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C08E4AD1B0B9A5E00632A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C08E4BD1B0B9A5E00632A17 /* ViewController.m in Sources */,
+				3C5974A71B0BE85F00E1FDB6 /* TorrentInfo.m in Sources */,
+				3C5974AA1B0BE91F00E1FDB6 /* TorrentFile.m in Sources */,
+				3C08E4DB1B0BC3B500632A17 /* BDecoder.m in Sources */,
+				3C08E4BA1B0B9A5E00632A17 /* main.m in Sources */,
+				3C08E4B81B0B9A5E00632A17 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C08E4C31B0B9A5E00632A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C08E4CE1B0B9A5E00632A17 /* TorrentTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C08E4C91B0B9A5E00632A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C08E4B01B0B9A5E00632A17 /* TorrentTest */;
+			targetProxy = 3C08E4C81B0B9A5E00632A17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C08E4C01B0B9A5E00632A17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C08E4C11B0B9A5E00632A17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C08E4CF1B0B9A5E00632A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3C08E4D01B0B9A5E00632A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3C08E4D21B0B9A5E00632A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TorrentTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C08E4D31B0B9A5E00632A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TorrentTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C08E4D51B0B9A5E00632A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TorrentTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TorrentTest.app/Contents/MacOS/TorrentTest";
+			};
+			name = Debug;
+		};
+		3C08E4D61B0B9A5E00632A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TorrentTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TorrentTest.app/Contents/MacOS/TorrentTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C08E4AC1B0B9A5E00632A17 /* Build configuration list for PBXProject "TorrentTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C08E4CF1B0B9A5E00632A17 /* Debug */,
+				3C08E4D01B0B9A5E00632A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C08E4D11B0B9A5E00632A17 /* Build configuration list for PBXNativeTarget "TorrentTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C08E4D21B0B9A5E00632A17 /* Debug */,
+				3C08E4D31B0B9A5E00632A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C08E4D41B0B9A5E00632A17 /* Build configuration list for PBXNativeTarget "TorrentTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C08E4D51B0B9A5E00632A17 /* Debug */,
+				3C08E4D61B0B9A5E00632A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C08E4A91B0B9A5E00632A17 /* Project object */;
+}
